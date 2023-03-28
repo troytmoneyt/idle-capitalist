@@ -6,7 +6,7 @@ function setupDB (dbUri) {
   mongoose.set('useFindAndModify', false)
   mongoose.set('useCreateIndex', true)
   mongoose.set('useUnifiedTopology', true)
-  mongoose.connect(dbUri)
+  mongoose.connect("mongodb+srv://s122027:<password>@cluster0.azohl4o.mongodb.net/test")
 
   const db = mongoose.connection
 
